@@ -1,0 +1,62 @@
+.nav-bar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    p{
+        width: 10%;
+        font-size: 2rem;
+        margin-left: 10px ;
+        color: rgb(65, 64, 64);
+        
+        span{
+            font-size: 3rem;
+            margin-right: -5px;
+            font-weight: bolder;
+            color: black;
+        }
+    }
+
+    ul{
+
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .li-container{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+             li{
+                /* width: 100%; */
+                height: 100%;
+                list-style: none;
+                float: left;
+                margin: 5px;
+
+
+                a{
+                    text-decoration: none;
+                    font-size: 13px;
+                    color: rgb(54, 53, 53);
+                    font-weight: bold;
+                }
+            }
+        }
+
+       
+    }
+
+    .btn-container{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+}

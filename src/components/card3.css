@@ -1,0 +1,40 @@
+.card-ctn2{
+    height: 48%;
+    width: 40%;
+
+    hr{
+        width: 100%;
+        opacity: .7;
+    }
+
+    .card-ctn2-internal{
+        width: 100%;
+        height: 98%;
+        padding: 20px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+    
+
+        h2{
+            text-transform: capitalize;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-size: 1.2rem;
+            opacity: .9;
+        }
+
+        .learn-more{
+            margin-top: 10px;
+            display: inline-flex;
+            align-items: center;
+
+            p{
+                font-weight: bold;
+            }
+        }
+    }
+}
