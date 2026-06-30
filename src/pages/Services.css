@@ -1,7 +1,4 @@
-.main-ctn{
-    background-color: whitesmoke;
-    width: 100%;
-    height: 100vh;
+.main-ctn-service{
     padding: 20px;
     display: flex;
     flex-direction: column;

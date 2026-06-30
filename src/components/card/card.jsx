@@ -1,5 +1,5 @@
 import './card.css'
-import Icon from './icon.jsx'
+import Icon from '../icon.jsx'
 
 function Card(props) {
     return (

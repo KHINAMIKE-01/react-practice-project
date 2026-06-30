@@ -1,7 +1,7 @@
 import React from 'react'
 import './card3.css'
-import Button from '../components/button.jsx'
-import Arrow from '../assets/icons/forward-arrow.svg'
+import Button from '../button/button.jsx'
+
 
 const Card3 = (props) => {
   return (
