@@ -1,18 +1,17 @@
 import React from 'react'
-import './body3.css'
-import Button from '../components/button.jsx'
-import Card2 from '../components/card2.jsx'
+import './OurApproach.css'
+import Button from '../components/button/button.jsx'
+import Card2 from '../components/card/card2.jsx'
 import image1 from '../assets/images/containers.jpg'
 import image2 from '../assets/images/warehouse-distribution.jpg'
 import image3 from '../assets/images/derivery.jpg'
 import image4 from '../assets/images/supply-chain.jpg'
 import image5 from '../assets/images/customs-clearance.jpg'
 
-function Body3() {
-  return (
+const OurApproach = () => {
+ return (
     <>  
-        <div className='main-ctn'>
-
+        <div className=' main-ctn main-ctn-approach'>
             <div className="main-ctn-top">
                 <div className='ctn-up-left'>
                     <p>Logistics Solutions</p>
@@ -47,4 +46,4 @@ function Body3() {
   )
 }
 
-export default Body3
+export default OurApproach

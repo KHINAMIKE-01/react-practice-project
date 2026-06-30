@@ -1,16 +1,14 @@
-import './body2.css'
-import Card from '../components/card.jsx'
+import React from 'react'
+import './Services.css'
+import Card from '../components/card/card.jsx'
 import eCommerceIcon from '../assets/icons/e-commerce.svg'
 import manufacturing from '../assets/icons/manufacturing.svg'
 import microchip from '../assets/icons/microchip.svg'
 import pharmacy from '../assets/icons/pharmacy.svg'
 
 
-
-
-function Body2() {
-
-    const cards = {
+const Services = () => {
+ const cards = {
         card1 : {
             icon: eCommerceIcon,
             alt : 'e-commerce image',
@@ -39,8 +37,7 @@ function Body2() {
 
     return (
         <>
-            <div className="main-ctn">
-
+            <div className="main-ctn main-ctn-service">
                 <div className="ctn-top">
                     <p className='header-tpc'>/industries we serve</p>
                     <div className='header-ctn'>
@@ -73,4 +70,4 @@ function Body2() {
     )
 }
 
-export default Body2
+export default Services
